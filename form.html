@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Tugas Hacktiv8</title>
+</head>
+<body>
+  <h1>Buat Account Baru</h1>
+  <h2>Sign Up Form</h2>
+  <form action="welcome.html" method="POST">
+    <p>
+      <label for="full-name">Full Name:</label>
+      <br/>
+      <input id="full-name" name="fullName" type="text">
+    </p>
+    <p>
+      <label for="email">Email Address</label>
+      <br/>
+      <input id="email" name="email" type="email">
+    </p>
+    <label for="gender">Gender:</label>
+    <br/>
+    <input id="male-radio" type="radio" name="gender" value="male">
+    <label for="male-radio">Male</label>
+    <br/>
+    <input id="female-radio" type="radio" name="gender" value="male">
+    <label for="female-radio">Female</label>
+    <br/>
+    <input id="other-radio" type="radio" name="gender" value="male">
+    <label for="other-radio">Other</label>
+    <p>
+      <label for="nationaloity">Nationality:</label>
+      <br/>
+      <select>
+        <option>Malaysian</option>
+        <option>Indonesia</option>
+        <option>Other</option>
+      </select>
+    </p>
+    <p>
+    <label for="languagespoken">Language Spoken:</label>
+    <br/>
+    <input type="checkbox" name="indonesia" value="indonesia">
+    <label for="language-checkbox">Bahasa Indonesia</label>
+    <br/>
+    <input type="checkbox" name="english" value="english">
+    <label for="language-checkbox">English</label>
+    <br/>
+    <input type="checkbox" name="other" value="other">
+    <label for="language-checkbox">Other</label>
+    </p>
+    <p>
+    <label for="bio">Bio:</label>
+      <br/>
+      <textarea name="biografi" rows="10" cols="30"></textarea>
+    </p>
+    <input type="submit" value="Sign Up" />
+</form>
+</body>
+</html>
